@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AREAPROPIEDADES:SERVICIOS INMOBILIARIOS</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <header>
+                 <div class="imagen">
+            <img  src="img/areapropiedades.png" alt="">
+                  <h3>Servicios Inmobiliarios</h3>
+          </div>
+          <div class="menu">
+              <nav>
+                <a class="activo" href="index.html">INICIO</a>
+        <a href="quienes_somos.html">QUIENES SOMOS</a>
+        <a href="servicios.html">SERVICIOS</a>
+        <a href="contacto.html">CONTACTO</a>
+              </nav>
+          </div>
+          <div class="redes">
+              <nav>
+                <a target="_blank" href="http://www.google.cl"> <img src="img/google.png" alt=""></a>
+                
+                <a target="_blank" href="http://www.facebook.com"> <img src="img/facebookicono.jpg" alt=""></a>
+               
+                </nav>
+          </div>
+      </header>
+      <main>
+          <section class="container-contacto">
+              <h3>Ingrese sus datos para una mejor atención mediante el formulario</h3>
+              <div class="formulario">
+                  <div class="form-group">
+                     <label for="nombre-txt">Nombre y Apellido</label>
+                     <input type="text" id="nombre-txt" >
+                  </div>
+                  <div class="form-group">
+                     <label for="correo-txt">Correo</label>
+                     <input type="email" id="correo-txt" >
+                  </div>
+                  <div class="form-group">
+                    <label for="fecha-atencion">Fecha de solicitud de Atención</label>
+                    <input type="date" id="fecha-atencion" >
+                  </div>
+                  <div class="form-group">
+                    <label for="sintomas-txt">Ingrese Servicios que desea:COMPRAVENTA-ARRIENDO O LEASING.
+                      Luego tipo de Propiedad:Casa-Departamento-Oficina-Parcela-Terreno Industrial o Estacionamiento</label>
+                    <textarea id="sintomas-txt" ></textarea>
+                  </div>
+                  <div class="form-group">
+                      <button type="button"
+                        class="btn"
+                        id="contactar-btn">
+                        Solicitar Atención</button>
+                  </div>
+              </div>
+          </section>
+      </main>
+      <footer>
+          <h4>Todos los derechos reservados Propietario Pablo Torrejón Díaz</h4>
+      </footer>
+      <!-- SIEMPRE EL CODIGO DE OTRAS PERSONAS VA ANTES DEL MIO -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+      <script src="vendor/tinymce/js/tinymce/tinymce.min.js"></script>
+      <script type="text/javascript" src="js/contacto.js" >
+
+      </script>
+  </body>
+</html>
